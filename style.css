@@ -1,0 +1,224 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+
+    
+}
+
+.container {
+    
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+
+.left-side {
+    
+    position: absolute;
+    width: 720px;
+    height: 900px;
+}
+
+.logo {
+    position: absolute;
+    width: 111px;
+    height: 27px;
+    margin-top: 43px;
+    margin-left: 40px;
+    background-image: url(assets/logo.svg);
+}
+
+
+.form {
+    
+    position: absolute;
+    width: 572px;
+    height: 512px;
+    margin-left: 74px;
+    margin-top: 194px;
+    border-radius: 4px;
+    background: #24221F;
+}
+
+.logo1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-top: 61px;
+    margin-left: 119px;
+    background-image: url(assets/log-in.svg);
+
+}
+
+p {
+    
+    position: absolute;
+    width: 176px;
+    height: 36px;
+    margin-top: 55px;
+    margin-left: 153px;
+    color: #D4CCB6;
+    font-size: 24px; 
+    font-family: Poppins;
+    font-weight: 600;
+    
+}
+
+p1 {
+    position: absolute;
+    width: 334px;
+    height: 23px;
+    margin-top: 96px;
+    margin-left: 119px;
+    color: #AFB6C2;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+p2 {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    margin-top: 146px;
+    margin-left: 119px;
+    color: #AFB6C2;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.email-bar {
+    display: flex;
+    align-items: center; 
+    
+}
+
+.email-bar input[type="email"] {
+
+    position: absolute;
+    width: 335px;
+    height: 44px;
+    margin-top: 175px;
+    margin-left: 119px;
+    background: #24221F;
+    border-radius: 4px;
+    border: 1px solid #FFC632;
+    box-shadow: 0px 0px 0px 2px #FFDE88;
+    background-image: url(assets/mail-focus.svg);
+    background-repeat: no-repeat;
+    background-position: 12px;
+    padding-left: 37px;
+}
+
+p3 {
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    margin-top: 239px;
+    margin-left: 119px;
+    color: #AFB6C2;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.password-bar input[type="password"]{
+    position: absolute;
+    width: 335px;
+    height: 44px;
+    padding-left: 37px;
+    margin-left: 119px;
+    margin-top: 268px;
+    border-radius: 4px;
+    border: 1px solid #868686;
+    background: #24221F;
+    background-image: url(assets/lock.svg);
+    background-repeat: no-repeat;
+    background-position: 12px;
+    
+}
+
+.eyes {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 283px;
+    margin-left: 460px;
+    background-image: url(assets/eye.svg);
+}
+
+
+
+label {
+    position: absolute;
+    width: 106px;
+    height: 20px;
+    margin-top: 332px;
+    margin-left: 119px;
+    color: #A9AFB9;
+    font-size: 16px;
+    font-family: Roboto;
+    
+}
+
+.Lembrar-me input[type="checkbox"] {
+    border-radius: 4px;
+    background: #24221F;
+
+}
+
+.forgot-password{
+   position: absolute;
+   width: 153px;
+   height: 21px;
+   margin-top: 331px;
+   margin-left: 300px;
+   color: #FFC632;
+   font-size: 14px;
+   font-family: Poppins;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+
+
+button {
+    position: absolute;
+    width: 334px;
+    height: 51px;
+    margin-top: 372px;
+    margin-left: 119px;
+    border-radius: 4px;
+    background: #FFC632;
+}
+
+
+    
+
+.conta {
+    position: absolute;
+    width: 235px;
+    height: 21px;
+    margin-top: 437px;
+    margin-left: 167px;
+    color: #FFC632;
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+
+.right-side {
+    
+    position: absolute;
+    width: 720px;
+    height: 900px;
+    left: 720px;
+    background-image: url(assets/side-image.jpg);
+    
+}
+
