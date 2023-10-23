@@ -1,66 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cristiano Franca" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="login, web side" />
     <title>Login_form</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-
-</head>
-
-<div class="container">
-
-   <div class="left-side">
-
-    <div class="logo"></div> 
-    
-    <div class="form">
-        <div class="logo1"></div>
-       <p>Faça seu login</p> 
-       <p1>Entre com suas informações de cadastro.</p1>
-       <p2>E-mail</p2>
-
-       <div class="email-bar">
-        <form action="#" method="post">
-          <input type="email" name="email" placeholder="Digite seu email" required>
-          
-        </form>
-
-        
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/LetraC.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="left-side">
+        <div id="logo"></div>
+        <div id="form">
+          <div id="login">
+            <div id="topLogin">
+              <img src="assets/log-in.svg" alt="" />
+              <p>Faça seu login</p>
+            </div>
+            <p id="paragrafo1">Entre com suas informações de cadastro.</p>
+          </div>
+          <div id="Email">
+            <p id="paragrafo2">E-mail</p>
+            <div id="email-bar">
+              <form action="#" method="post">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Digite seu email"
+                  required
+                />
+              </form>
+            </div>
+          </div>
+          <div id="senha">
+            <p id="paragrafo3">Senha</p>
+            <div id="password-bar">
+              <input type="password" placeholder="Digite sua senha" />
+              <div class="eyes"></div>
+            </div>
+            <div id="Lembrar-me">
+              <label>
+                <input type="checkbox" name="remember-me" /> Lembrar-me
+              </label>
+              <a href="#" id="forgot-password">Esqueci minha senha</a>
+            </div>
+          </div>
+          <button type="submit">Entrar</button>
+          <div class="criar">
+            <a href="#" id="conta">Não tem uma conta? Registre-se</a>
+          </div>
+        </div>
       </div>
-      <p3>Senha</p3>
-      <div class="password-bar">
-        <input type="password" placeholder="Digite sua senha" />
-         <div class="eyes"></div>
-      </div>
-      <div class="Lembrar-me">
-        
-      <label>
-        <input type="checkbox" name="remember-me"> Lembrar-me
-      </label>
-      </div>
-
-      <a href="#" class="forgot-password">Esqueci minha senha</a>
-
-      <button type="submit">Entrar</button>
-
-      <div class="criar">
-        <a href="#" class="conta">Não tem uma conta? Registre-se</a>
-      </div>
+      <section>
+        <img src="assets/side-image.jpg" alt="car camp" title="Car Camp" />
+      </section>
+      <!--criado dia 27, Julho 2023, desafio intermidiario, esse ja e o oitavo 
+     que eu pratiquei, fiz em menos de duas horas, falta uns detalhes e nao adicionei nada -->
+      <!-- eu refiz esse progama arrumando o screen pra celular e treinei mais o css, atualizado dia 22/10/2023,
+    levei de dois a tres dias, ainda falta criar outro index pra login e pr aacesso ao camp.-->
     </div>
-
-   <div class="right-side">
-   
-
-   </div>
-<!--criado dia 27, Julho 2023, desafio intermidiario, esse ja e o oitavo 
-     que eu pratiquei -->
-
-</div>
-<body>
-    
-</body>
+    <div id="script">
+      <button type="button" onclick="resetPagina()" title="Reset">
+        <img src="assets/x.png" alt="">
+      </button>
+      <h1>Atenção</h1>
+      <p>Esse saite ainda esa incompleto</p>
+      <p>Obrigado!</p>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
 </html>
