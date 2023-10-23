@@ -5,8 +5,6 @@ setTimeout(function() {
     script.style.justifyContent = "center";
     script.style.alignItems = "center";
   }, 10000)
- 
- 
  function resetPagina(){
     location.reload()
  }
